@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MODIFIER APPRENANT</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../fonts/css/all.css">
+    <link rel="stylesheet" href="../css/Modifier.css">
+
+</head>
+<body>
+    <div class="navigation">
+        <nav class="">
+            <h1><strong>SIMPLON BURKINA</strong></h1>
+        </nav>
+    </div>
+    <!--la classe navigation a une balise générale navbar qui contiendra du text et une image et si dessous nous avont la balise qui contiendra un toggle(burger) qui aurra pour classe générale bouton -->
+    <div class="bouton ">
+               <div class="menu-main">
+                            <i class="fas fa-bars"></i>
+                    
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="#" class=""> ACCUEIL</a></li>
+                            <li> <a href="#">AJOUTER</a>  </li>
+                            <li> <a href="#">MODIFIER</a> </li>
+                            <li> <a href="#">LISTE DES APPRENANT </a> </li>
+                        </ul>
+                    </nav>
+               </div>
+    </div>
+    <!--fin de la dive bouton et juste apres debut de la div des ajout et de limage simplon-->
+    <div class="principale container">
+        <div class="simplon">
+            <img src="../images/sol-logo.png" class="image" alt="">
+        </div>
+        <div class="formulaire">
+            <div class="inscri container-fluid">
+                <h5>Modifier</h5>
+            </div>
+            <form action="">
+                <label for="fname"><strong>Email:</strong></label>
+                <input type="text" id="fname" name="fname" class="aligne" ><br>
+                <label for="lname"><strong>Mom:</strong></label>
+                <input type="text" id="lname" name="lname"class="aligne" > <br>
+                <label for="lame"><strong>Prénom:</strong></label>
+                <input type="text" id="lame" name="lname"class="alige" > <br>
+                <label for="lme"><strong>Ville d'aurigine:</strong></label>
+                <input type="text" id="lme" name="lname"class="algne" ><br>
+                <label for="le"><strong>Formation de base:</strong></label>
+                <input type="text" id="le" name="lname"class="alg" ><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">M</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">F</label><br>
+                <textarea name="appreciation" id="" cols="20" rows="1"placeholder="appreciation"></textarea><br>
+                <div class="centre"><input type="submit" value="modifier" ></div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
