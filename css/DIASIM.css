@@ -1,0 +1,198 @@
+header{
+    margin-top: auto;
+}
+body{
+    background-image: url("../images/background-simplon-pattern.svg");
+    background-attachment: fixed;
+}
+.container{
+    margin: auto;
+    background-color: red;
+    width: auto;
+    height: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.container0{
+    background-color: white;
+    width: 1.5cm;
+    height: 1.5cm;
+    margin-left: 65%;
+    margin-top: -5%;
+    padding-left: 0.5%;
+    padding-top: 0.5%;
+}
+.container1 {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: ;
+  }
+  li {
+    list-style:none !important;
+    color:#FFF;
+    padding:10px;
+    font-size:20px;
+    text-decoration:none;
+    }
+     
+    nav ul {
+    background-color:#64abfb;
+    padding:0;
+    margin:0;
+    }
+     
+    nav ul li {
+    list-style: none;
+    line-height:44px;
+    float:left;
+    background-color:#64abfb;
+    }
+     
+    nav ul li a {
+    color:#FFF;
+    padding:10px;
+    font-size:20px;
+    text-decoration:none;
+    }
+     
+    li a:hover {
+    border-bottom:3px #FFF solid;
+    }
+    nav ul li ul { display:none; } /* Rend le menu déroulant caché par défaut */
+     
+    nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
+    z-index:99999;
+    display:list-item !important;
+    position:absolute;
+    margin-top:5px;
+    margin-left:-10px;
+    }
+     
+    nav ul li:hover ul li {
+    float:none;
+    }
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color:red;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  /* Rotate first bar */
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+  }
+  
+  /* Fade out the second bar */
+  .change .bar2 {
+    opacity: 0;
+  }
+  
+  /* Rotate last bar */
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+  }
+  .function myFunction(x) {
+    x.classList.toggle("change");
+  }
+h2{
+    text-align: center;
+    color: tomato;
+    display: inline-block;
+    margin-left: 40%;
+    vertical-align: top;
+}
+form{
+    margin-left: -35%;
+    display: inline-block;
+    margin-top: 3%;
+    vertical-align: top;
+}
+.tab1{
+    margin-left: 60%;
+    display: inline-block;
+    margin-top: -4%;
+    vertical-align: top; 
+}
+.td1{
+    background-color: indigo;
+    color: white;
+    padding-left: 30%;
+    text-align: justify;
+}
+.td2{
+    color: indigo;
+    padding-left: 30%;
+    text-align: justify;
+}
+table{
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    border-collapse: collapse;
+}
+table tr th:nth-of-type(1),table tr th:nth-of-type(2){
+    width: 150px;
+}
+table tr th:nth-of-type(4){
+    width: 170px;
+}
+td, th{
+    padding: 10px;
+    border: 1px solid rgb(219, 215, 215);
+}
+th{
+    color: red;
+    line-height: 30px;
+}
+td{
+    padding-bottom: 3%;
+}
+.container2{
+    background-color: white;
+    width: 2.5cm;
+    height: 2.5cm;
+    margin-left: 50%;
+    margin-top: 7%;
+    padding-left: 0.5%;
+    padding-top: 0.5%;
+    opacity: ;
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+.container2 h2{
+    margin-left: -15%;
+    margin-top: 1%;
+}
+.container2 img{
+margin-top: -15px;
+}
+@media all and (max-device-width: 350px)
+{
+.container{
+    max-width: auto;
+    text-align: center;
+    flex-direction: column;
+    float: left;
+    display: block;
+}
+.container0{
+    justify-content: center;
+}
+img{
+justify-content: center;
+max-width: 100%;
+}
+body{
+    width: auto;
+    flex-direction: column;
+}
+}
