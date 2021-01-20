@@ -53,6 +53,7 @@ section > div{
 }
 .cercle ~ p{
     text-align: center;
+    /* color: #ce0033; */
 }
 .liste{
     background:#fff url(../images/liste.png) no-repeat center;
