@@ -29,79 +29,36 @@ h1{
 .container1 {
     display: inline-block;
     cursor: pointer;
-    margin-left: ;
+    margin-top: -12%;
   }
-  li {
-    list-style:none !important;
-    color:#FFF;
-    padding:10px;
-    font-size:20px;
-    text-decoration:none;
-    }
-     
-    nav ul {
-    background-color:#64abfb;
-    padding:0;
-    margin:0;
-    }
-     
-    nav ul li {
-    list-style: none;
-    line-height:44px;
-    float:left;
-    background-color:#64abfb;
-    }
-     
-    nav ul li a {
-    color:#FFF;
-    padding:10px;
-    font-size:20px;
-    text-decoration:none;
-    }
-     
-    li a:hover {
-    border-bottom:3px #FFF solid;
-    }
-    nav ul li ul { display:none; } /* Rend le menu déroulant caché par défaut */
-     
-    nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
-    z-index:99999;
-    display:list-item !important;
-    position:absolute;
-    margin-top:5px;
-    margin-left:-10px;
-    }
-     
-    nav ul li:hover ul li {
-    float:none;
-    }
-  .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
-    background-color:red;
-    margin: 6px 0;
-    transition: 0.4s;
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .active {
+    background-color: #f70c0c;
+    color: white;
   }
   
-  /* Rotate first bar */
-  .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-    transform: rotate(-45deg) translate(-9px, 6px) ;
-  }
-  
-  /* Fade out the second bar */
-  .change .bar2 {
-    opacity: 0;
-  }
-  
-  /* Rotate last bar */
-  .change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-    transform: rotate(45deg) translate(-8px, -8px) ;
-  }
-  .function myFunction(x) {
-    x.classList.toggle("change");
-  }
 h2{
     text-align: center;
     color: tomato;
@@ -110,15 +67,15 @@ h2{
     vertical-align: top;
 }
 form{
-    margin-left: -35%;
+    margin-left: -53%;
     display: inline-block;
-    margin-top: 3%;
+    margin-top: 1%;
     vertical-align: top;
 }
 .tab1{
-    margin-left: 60%;
+    margin-left: 75%;
     display: inline-block;
-    margin-top: -4%;
+    margin-top: -6%;
     vertical-align: top; 
 }
 .td1{
@@ -175,10 +132,10 @@ td{
 .container2 img{
 margin-top: -15px;
 }
-@media all and (max-device-width: 350px)
+@media all and (max-device-width: 360px)
 {
 .container{
-    max-width: auto;
+    width: 100%;
     text-align: center;
     flex-direction: column;
     float: left;
@@ -186,13 +143,41 @@ margin-top: -15px;
 }
 .container0{
     justify-content: center;
+    width: 25%;
+    margin-left: 40%;
 }
-img{
-justify-content: center;
-max-width: 100%;
+.container1{
+margin-left: 5%;
+width: auto;
+display: inline-block;
 }
-body{
-    width: auto;
-    flex-direction: column;
+h2{
+    text-align: center;
+    margin-left: 7%;
+    display: inline-block;
+}
+.tab1{
+display: none;
+width: 1%;
+height: 1%;
+padding: 1%;
+margin-left: 60%;
+text-align: center;
+margin-top: -28%;
+}
+.td1{
+    height: 1%;
+}
+form{
+    display: none;
+}
+table tr th:nth-of-type(5),table tr th:nth-of-type(6){
+    display: none;
+}
+table tr td:nth-of-type(5),table tr td:nth-of-type(6) {
+    display: none;
+}
+.container2{
+    margin-left: 35%;
 }
 }
