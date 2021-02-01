@@ -4,10 +4,9 @@ try{
 } catch(Exception $e){
     die('Erreur: '.$e-> getMessage());
 }
-if (extension_loaded('PDO')){
-    echo'ok';
-}
-else {
-    echo'Erreur';
-}
-?>
+//if (extension_loaded('PDO')){
+ //   echo'félicitation vous avez ajouter un apprenant';
+//}
+//else {
+  //  echo'Erreur';
+//}

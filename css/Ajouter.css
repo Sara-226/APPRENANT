@@ -71,13 +71,21 @@ body{
 .formulaire{
     border:2px solid #ce0033;
     width: 472px;
-    height: auto;
+    height: 420px;
     padding-bottom: 10px;
 }  
 .inscri{
     background-color: #ce0033;
     color: white;
     text-align: center;
+}
+.ranger{
+    display: flex;
+    justify-content: space-around;
+    margin-top:15px;
+}
+.ranger input{
+    border-radius: 10px;
 }
 .aligne{
     margin-left: 150px;
@@ -91,13 +99,26 @@ body{
 .alg{
     margin-left: 50px;  
 }
-.centre{
+.gauche{
+    margin-left: 15px;
+}
+.aire{
+    display: flex;
+    justify-content: center;
+}
+.aire textarea{
+    border-radius: 15px;
+}
+.centre input{
     background-color: #ce0033;
+    color: white;
     text-align: center;
     border-radius: 15px;
     width: 50%;
-    margin-left: 120px;  
+    margin-left: 120px;
+    margin-top: 10px;
 }
+
 
 @media screen and (min-width:200px) and (max-width:740px){
    
